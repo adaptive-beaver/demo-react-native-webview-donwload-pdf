@@ -14,6 +14,15 @@ class App extends React.Component {
     super(props);
   }
 
+  onShouldStartLoadWithRequest = (request) => {
+    if (request.url.includes(".pdf")) {
+      alert("PDF Detected!");
+      return false;
+    } else {
+      return true;
+    }
+  };
+
   render() {
     return (
         <SafeAreaView style={{ flex: 1 }}>
@@ -23,6 +32,7 @@ class App extends React.Component {
               cacheEnabled={false}
               incognito={true}
               source={{ uri: urlWithLinkToPDF }}
+              onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
           />
         </SafeAreaView>
     );
