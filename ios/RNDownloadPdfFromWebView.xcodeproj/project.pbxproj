@@ -145,7 +145,6 @@
 				183D6134D2D6B4E4B6386EF1 /* Pods-RNDownloadPdfFromWebView-RNDownloadPdfFromWebViewTests.debug.xcconfig */,
 				1AFC8E2DD4C94B9162E0E1AF /* Pods-RNDownloadPdfFromWebView-RNDownloadPdfFromWebViewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV72YH5852;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNDownloadPdfFromWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV72YH5852;
 				INFOPLIST_FILE = RNDownloadPdfFromWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
