@@ -7,6 +7,9 @@ import {
 import { WebView } from 'react-native-webview';
 import RNFetchBlob from 'rn-fetch-blob'
 
+// rn-fetch-blog Docs: https://github.com/joltup/rn-fetch-blob#user-content-installation
+// Stack Overflow post on React-Native WebView + RNFetchBlob + PDF Download: https://stackoverflow.com/questions/44546199/how-to-download-a-file-with-react-native
+
 const urlWithLinkToPDF = "https://topherpedersen.blog/2021/09/29/how-to-download-a-pdf-from-a-webview-in-react-native/";
 const pdfURL = "https://archive.org/download/MythicalManMonth/Brooks%201974%20The%20Mythical%20Man-Month-%20Essays%20on%20Software%20Engineering%2C%20Anniversary%20Edition%20%282nd%20Edition%29.pdf";
 
